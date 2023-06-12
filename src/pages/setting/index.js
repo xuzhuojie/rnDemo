@@ -2,17 +2,17 @@ import React, { useEffect } from 'react';
 import { View, Text } from 'react-native';
 import { Icon } from '@rneui/themed';
 
-function Home(props) {
+function Setting(props) {
   useEffect(() => {
     console.log(props);
   }, [props]);
 
   return (
     <View>
-      <Text>Home</Text>
-      <Icon name="rowing" />
+      <Text>Setting</Text>
+      <Icon name="settings" color="#517fa4" />
     </View>
   );
 }
 
-export default Home;
+export default Setting;
